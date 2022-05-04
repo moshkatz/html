@@ -1,0 +1,40 @@
+img {
+  border: 0.5px solid #ddd;
+  border-radius: 0.5px;
+  padding: 40px;
+  transition: transform .2s; /* Animation */
+   width: 430px;
+  margin: 0 auto;
+ position: relative;
+ left:270px;
+ 
+}
+img:hover {
+ 
+ transform: scale(1.5); /* (130% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+body {
+	font-family: arial;
+	 background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top;
+ background-image:url(http://bit.ly/2gPLxZ4);
+ width: 100%;
+ height: 100%;
+}
+#left {
+  position: absolute;
+  left: 360px;
+}
+#left2{
+	 position: absolute;
+ left: 470px;
+}
+#left3{
+	 position: absolute;
+ left: 390px;
+}
+.white{
+	color: white;
+}
